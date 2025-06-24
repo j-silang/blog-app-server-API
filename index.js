@@ -24,7 +24,7 @@ app.use("/posts", postRoutes);
 app.use("/users", userRoutes);
 
 if(require.main === module){
-	app.listen(port, "localhost", () => {
+	app.listen(port, "0.0.0.0", () => {
 	  console.log(`Server is listening on port ${port}.`);
 	});
 }
