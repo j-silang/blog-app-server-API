@@ -13,7 +13,7 @@ app.use(express.json());
 const corsOptions = {
 	origin: [
 		'http://localhost:3000',
-		'https://blog-app-client-api.vercel.app/'
+		'https://blog-app-client-api.vercel.app'
 	],
 	credentials: true,
 	optionsSuccessStatus: 200
